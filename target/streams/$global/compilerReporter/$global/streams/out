@@ -1,0 +1,13 @@
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:8: type CountController is not a member of package controllers
+[error] GET     /count                      controllers.CountController.count
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:10: type AsyncController is not a member of package controllers
+[error] GET     /message                    controllers.AsyncController.message
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:8: type CountController is not a member of package controllers
+[error] GET     /count                      controllers.CountController.count
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:10: type AsyncController is not a member of package controllers
+[error] GET     /message                    controllers.AsyncController.message
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:8: type CountController is not a member of package controllers
+[error] GET     /count                      controllers.CountController.count
+[error] C:\PLAY_PROJECTS\PlayDemo-master\conf\routes:10: type AsyncController is not a member of package controllers
+[error] GET     /message                    controllers.AsyncController.message
+[error] 6 errors found

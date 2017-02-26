@@ -1,0 +1,44 @@
+@*
+ * This template takes a single argument, a String containing a
+ * message to display.
+ *@
+@(message: String)
+
+@*
+ * Call the the `main` template with two arguments. The first
+ * argument is a `String` with the title of the page, the second
+ * argument is an `Html` object containing the body of the page.
+ *@
+@main("Welcome to Play") {
+
+    <script type="text/javascript" src="@routes.Assets.versioned("js/index.js")"></script>
+
+    <p>Product list:</p>
+    <ul id="products"></ul>
+    <p>End of product list.</p>
+
+    <br />
+
+    <p>Add a new Product</p>
+    <form action="@routes.HomeController.addProduct()" method="post">
+        <input type="text" name="name"/>
+        <button>Add product</button>
+    </form>
+    
+    <br />
+    
+    <p>Delete Product</p>
+    <form action="@routes.HomeController.deleteProduct()" method="post">
+        <input type="text" name="id"/>
+        <button>Delete product</button>
+    </form>
+    
+    <br />
+    
+    <p>Change Product</p>
+    <form action="@routes.HomeController.updateProduct()" method="post">
+        <input type="text" name="id"/>
+        <input type="text" name="name"/>
+        <button>Change product</button>
+    </form>
+}

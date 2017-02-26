@@ -1,0 +1,7 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\application.conf,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\application.conf)
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\evolutions,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\evolutions)
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\logback.xml,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\logback.xml)
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\routes,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\routes)
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\evolutions\default,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\evolutions\default)
+[debug] 	(C:\PLAY_PROJECTS\PlayDemo-master\conf\evolutions\default\1.sql,C:\PLAY_PROJECTS\PlayDemo-master\target\scala-2.11\classes\evolutions\default\1.sql)
